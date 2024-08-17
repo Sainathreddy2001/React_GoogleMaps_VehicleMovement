@@ -1,0 +1,78 @@
+
+.control-panel {
+ position:fixed;
+  
+  bottom: 20px;
+  left: 20px;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  
+}
+
+.open-button {
+  
+  position: relative;
+  
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  
+  z-index: 11;
+}
+
+.control-content {
+  position: absolute;
+  bottom: 50px;
+  left: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.control-button {
+  margin:5px;
+  padding: 10px;
+  border: none;
+  background-color: #7ac2e3;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  
+}
+
+.dropdown {
+  margin: 10px 0;
+  padding: 5px;
+}
+
+.progress-container {
+  margin: 10px 0;
+}
+
+.progress-bar {
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  height: 10px;
+  width: 100%;
+  position: relative;
+}
+
+.speed-progress {
+  background-color: #007bff;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.control-icon {
+  width: 40px; 
+  height: 40px; 
+}

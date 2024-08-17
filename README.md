@@ -1,3 +1,38 @@
+# Vehicle Tracking Google Maps Project
+
+## Overview
+
+This project is a web application that visualizes vehicle movement on a Google Map. It displays the vehicle's current location, tracks its path using a polyline, and features a control panel with Play, Stop, Replay buttons, and a dropdown menu to select different movement options. The project uses React and the Google Maps JavaScript API.
+
+## Features
+
+- **Google Maps Integration**: Displays a Google Map with a moving vehicle marker.
+- **Polyline Path**: Tracks the vehicle's route on the map.
+- **Info Window**: Shows detailed vehicle data such as speed, distance, battery status, and more.
+- **Control Panel**: Provides Play, Stop, Replay buttons, a progress bar, and a dropdown menu for selecting different date ranges for vehicle movement history.
+
+## Installation
+
+1. **Clone the repository**:
+
+   ```bash
+   git clone https://github.com/Sainathreddy2001/React_GoogleMaps_VehicleMovement.git
+   
+
+Navigate to the project directory:
+
+
+cd vehicle-google-maps-project
+Install dependencies:
+npm install
+
+Create a .env file in the root directory of the project and add your Google Maps API key:
+REACT_APP_GOOGLE_MAPS_API_KEY=your_google_maps_api_key_here
+Start the development server:
+npm start
+The application will be available at http://localhost:3000.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
